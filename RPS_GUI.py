@@ -31,15 +31,15 @@ choices = ["rock", "paper", "scissors"]
 player_choice = tk.StringVar(value=choices[0])
 
 player_img = {
-    "rock": ImageTk.PhotoImage(Image.open("imgs/bluerock.png").resize((150, 150))),
-    "paper": ImageTk.PhotoImage(Image.open("imgs/bluepaper.png").resize((150, 150))),
-    "scissors": ImageTk.PhotoImage(Image.open("imgs/bluescissors.png").resize((150, 150)))
+    "rock": ImageTk.PhotoImage(Image.open("bluerock.png").resize((150, 150))),
+    "paper": ImageTk.PhotoImage(Image.open("bluepaper.png").resize((150, 150))),
+    "scissors": ImageTk.PhotoImage(Image.open("bluescissors.png").resize((150, 150)))
 }
 
 computer_img = {
-    "rock": ImageTk.PhotoImage(Image.open("imgs/redrock.png").resize((150, 150))),
-    "paper": ImageTk.PhotoImage(Image.open("imgs/redpaper.png").resize((150, 150))),
-    "scissors": ImageTk.PhotoImage(Image.open("imgs/redscissors.png").resize((150, 150)))
+    "rock": ImageTk.PhotoImage(Image.open("redrock.png").resize((150, 150))),
+    "paper": ImageTk.PhotoImage(Image.open("redpaper.png").resize((150, 150))),
+    "scissors": ImageTk.PhotoImage(Image.open("redscissors.png").resize((150, 150)))
 }
 
 # Header frame
